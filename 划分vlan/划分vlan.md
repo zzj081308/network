@@ -6,7 +6,7 @@
 
 先拉几台pc，一台交换机：
 
-![](pic\Snipaste_2026-07-22_13-14-29.png)
+![](pic/Snipaste_2026-07-22_13-14-29.png)
 
 分别配ip：
 
@@ -25,11 +25,11 @@ sys
 vlan batch 10 20
 ```
 
-![](pic\Snipaste_2026-07-22_13-22-29.png)
+![](pic/Snipaste_2026-07-22_13-22-29.png)
 
 当前vlan表：
 
-![](pic\Snipaste_2026-07-22_13-25-11.png)
+![](pic/Snipaste_2026-07-22_13-25-11.png)
 
 ### 给接口配vlan
 
@@ -59,16 +59,16 @@ port hybrid untagged vlan 10	去标签
 
 ping测试：
 
-![](pic\Snipaste_2026-07-22_13-46-44.png)
+![](pic/Snipaste_2026-07-22_13-46-44.png)
 
 当前vlan表：
-![](pic\Snipaste_2026-07-22_13-48-05.png)
+![](pic/Snipaste_2026-07-22_13-48-05.png)
 
 ## 3.基于接口划分（trunk和access）
 
 ### 网络拓扑图
 
-![](pic\Snipaste_2026-07-22_14-28-02.png)
+![](pic/Snipaste_2026-07-22_14-28-02.png)
 
 分别配10.0.0.1、10.0.0.2
 
@@ -118,7 +118,7 @@ port trunk allow-pass vlan 10
 
 # 实例：
 
-![](pic\Snipaste_2026-07-22_15-55-42.png)
+![](pic/Snipaste_2026-07-22_15-55-42.png)
 
 ```shell
 PC1：
@@ -187,16 +187,16 @@ port trunk allow-pass vlan 10 20
 ```
 
 SW1的vlan配置：
-![](pic\Snipaste_2026-07-22_16-06-58.png)
+![](pic/Snipaste_2026-07-22_16-06-58.png)
 
 SW2的vlan配置：
-![](pic\Snipaste_2026-07-22_16-33-40.png)
+![](pic/Snipaste_2026-07-22_16-33-40.png)
 
 # 配置三层网关互通vlan：
 
 但还需要再加一台交换机SW3
 
-![](pic\Snipaste_2026-07-22_16-35-30.png)
+![](pic/Snipaste_2026-07-22_16-35-30.png)
 
 ```shell
 SW3
@@ -226,4 +226,4 @@ vlan 10和vlan 20即可互通
 
 SW3路由表：
 
-![](pic\Snipaste_2026-07-22_16-42-13.png)
+![](pic/Snipaste_2026-07-22_16-42-13.png)
