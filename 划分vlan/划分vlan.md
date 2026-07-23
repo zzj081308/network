@@ -167,8 +167,6 @@ mac地址却在vlan 1
 
 ![](pic/Snipaste_2026-07-23_13-44-09.png)
 
-至于pc8，
-
 # 实例：
 
 ![](pic/Snipaste_2026-07-22_15-55-42.png)
