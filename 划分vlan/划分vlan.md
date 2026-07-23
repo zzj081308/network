@@ -116,6 +116,59 @@ port trunk allow-pass vlan 10
 
 放行vlan 10的流量
 
+## 4.基于mac地址划分
+
+### 网络拓扑图
+
+![](pic/Snipaste_2026-07-23_13-35-29.png)
+
+```shell
+SW4
+system-view
+undo info-center enable
+sysname SW4
+vlan 10
+mac-vlan mac-address 5489-980C-6750
+mac-vlan mac-address 5489-9893-0B2F
+quit
+interface GigabitEthernet 0/0/1
+port hybrid untagged vlan 10
+undo port hybrid untagged vlan 1
+mac-vlan enable
+interface GigabitEthernet 0/0/2
+port hybrid untagged vlan 10
+undo port hybrid untagged vlan 1
+mac-vlan enable
+```
+
+创建vlan 10
+
+把两个设备的mac地址加入vlan 10
+
+设置两个hybrid接口不带标签转发vlan 10
+
+注意！还要把两个接口的vlan1移除，否则换了设备mac地址不一样还是能通
+
+至于pc8，即使把接口port hybrid untagged vlan 10加入vlan10也不通
+
+因为vlan 10在之前没有加入pc8的mac地址，属于是接口加了vlan 10但mac地址在vlan 1
+
+
+
+接口在vlan 10
+
+![](pic/Snipaste_2026-07-23_14-06-36.png)
+
+mac地址却在vlan 1
+
+![](pic/Snipaste_2026-07-23_14-08-26.png)
+
+### SW4的mac表
+
+![](pic/Snipaste_2026-07-23_13-44-09.png)
+
+至于pc8，
+
 # 实例：
 
 ![](pic/Snipaste_2026-07-22_15-55-42.png)
