@@ -54,7 +54,7 @@ int g0/0/1
 [R1]acl 2000
 [R1-acl-basic-2000]rule 5 permit source 192.168.1.0 0.0.0.255
 [R1]int g0/0/1
-[R1-GigabitEthernet0/0/1]nat outbound 2000 address-group 1 
+[R1-GigabitEthernet0/0/1]nat outbound 2000 address-group 1 no-pat
 ```
 
 此时转换的地址在 10.0.0.10 ~ 10.0.0.100 区间内
