@@ -16,20 +16,6 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="9445A024-B371-4955-ABAA-8F61BC9FB364" name="CE1" poe="0" model="CE12800" settings="" system_mac="70-7B-E8-5A-29-CF" com_port="2006" bootmode="0" cx="911.135010" cy="546.125000" edit_left="933" edit_top="592">
-            <slot id="1">
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="1" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="2" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="3" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="4" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="7" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="8" />
-                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="9" />
-            </slot>
-        </dev>
         <dev id="5A190A06-4888-41fe-9334-C60EC0D8B139" name="SW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-91-20-4F" com_port="2002" bootmode="0" cx="637.600037" cy="666.000000" edit_left="615" edit_top="684">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
@@ -52,30 +38,18 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
-        <dev id="0228D7DB-74D6-4321-9528-169A90DE9F1B" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-04-34-1B" com_port="2004" bootmode="0" cx="905.249878" cy="303.494324" edit_left="915" edit_top="352">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="1" />
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-                <interface sztype="Serial" interfacename="Serial" count="2" />
-            </slot>
-            <slot isMainBoard="0" id="0" type="521" />
-        </dev>
-        <dev id="927A973C-8625-40e9-BBA5-F85BD57CCE25" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-4C-36-1B" com_port="2007" bootmode="0" cx="906.740051" cy="176.630005" edit_left="907" edit_top="223">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="1" />
-                <interface sztype="Ethernet" interfacename="GE" count="2" />
-                <interface sztype="Serial" interfacename="Serial" count="2" />
-            </slot>
-            <slot isMainBoard="0" id="0" type="521" />
-        </dev>
-        <dev id="4F4636C6-5066-49d7-AEF7-BA98515B73E6" name="PC5" poe="0" model="PC" settings=" -simpc_hostname pc5  -simpc_ip 192.168.100.2  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.100.1  -simpc_mac 54-89-98-ED-02-A3  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-ED-02-A3" com_port="0" bootmode="0" cx="1174.910034" cy="173.030014" edit_left="1201" edit_top="227">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
-            </slot>
-        </dev>
-        <dev id="FC3F1651-449A-4909-8CFB-8B858E6B211A" name="PC1" poe="0" model="PC" settings=" -simpc_hostname pc1  -simpc_ip 192.168.1.1  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.1.254  -simpc_mac 54-89-98-C3-6E-9F  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-C3-6E-9F" com_port="0" bootmode="0" cx="515.000000" cy="971.000000" edit_left="542" edit_top="1025">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+        <dev id="9445A024-B371-4955-ABAA-8F61BC9FB364" name="CE1" poe="0" model="CE12800" settings="" system_mac="70-7B-E8-5A-29-CF" com_port="2006" bootmode="0" cx="911.135010" cy="546.125000" edit_left="933" edit_top="592">
+            <slot id="1">
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="1" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="2" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="3" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="4" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="7" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="8" />
+                <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="9" />
             </slot>
         </dev>
         <dev id="134C76AB-5C4D-4552-A7CA-09FC55CBC82E" name="FW1" poe="0" model="USG6000V" settings="" system_mac="00-E0-FC-AF-76-1F" com_port="2005" bootmode="0" cx="906.929382" cy="415.599426" edit_left="913" edit_top="462">
@@ -89,6 +63,32 @@
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="5" />
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="6" />
             </slot>
+        </dev>
+        <dev id="FC3F1651-449A-4909-8CFB-8B858E6B211A" name="PC1" poe="0" model="PC" settings=" -simpc_hostname pc1  -simpc_ip 192.168.1.1  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.1.254  -simpc_mac 54-89-98-C3-6E-9F  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-C3-6E-9F" com_port="0" bootmode="0" cx="515.000000" cy="971.000000" edit_left="542" edit_top="1025">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="0228D7DB-74D6-4321-9528-169A90DE9F1B" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-04-34-1B" com_port="2004" bootmode="0" cx="905.249878" cy="303.494324" edit_left="903" edit_top="342">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="0" type="521" />
+        </dev>
+        <dev id="4F4636C6-5066-49d7-AEF7-BA98515B73E6" name="PC5" poe="0" model="PC" settings=" -simpc_hostname pc5  -simpc_ip 192.168.100.2  -simpc_mask 255.255.255.0  -simpc_gateway 192.168.100.1  -simpc_mac 54-89-98-ED-02-A3  -simpc_mc_dstip 0.0.0.0  -simpc_mc_dstmac 00-00-00-00-00-00  -simpc_dns1 0.0.0.0  -simpc_dns2 0.0.0.0  -simpc_ipv6 ::  -simpc_prefix 128  -simpc_gatewayv6 ::  -simpc_dhcp_state 0  -simpc_dhcpv6_state 0  -simpc_dns_auto_state 0  -simpc_igmp_version 1  -simpc_group_ip_start 0.0.0.0  -simpc_src_ip_start 0.0.0.0  -simpc_group_num 0  -simpc_group_step 0  -simpc_src_num 0  -simpc_src_step 0  -simpc_type MODE_IS_INCLUDE " system_mac="54-89-98-ED-02-A3" com_port="0" bootmode="0" cx="1174.910034" cy="173.030014" edit_left="1201" edit_top="227">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
+            </slot>
+        </dev>
+        <dev id="927A973C-8625-40e9-BBA5-F85BD57CCE25" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-4C-36-1B" com_port="2007" bootmode="0" cx="906.740051" cy="176.630005" edit_left="907" edit_top="223">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Serial" interfacename="Serial" count="2" />
+            </slot>
+            <slot isMainBoard="0" id="0" type="521" />
         </dev>
     </devices>
     <lines>
@@ -143,10 +143,14 @@
         </line>
     </lines>
     <shapes>
+        <shape type="1" filloption="1" color="11881034" upleftcorner="358,510" width="1147" height="632" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="1" filloption="1" color="16744448" upleftcorner="994,793" width="462" height="337" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="1" filloption="1" color="16777088" upleftcorner="443,632" width="1013" height="162" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
         <shape type="1" filloption="1" color="16744448" upleftcorner="443,792" width="442" height="344" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
-        <shape type="1" filloption="1" color="16744703" upleftcorner="441,511" width="1015" height="122" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="16744703" upleftcorner="443,511" width="1015" height="122" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="8441648" upleftcorner="633,357" width="617" height="155" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="4868789" upleftcorner="634,155" width="750" height="201" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
+        <shape type="1" filloption="1" color="11881034" upleftcorner="1529,1024" width="0" height="0" startpt="0,0" endpt="0,0" borderStyle="0" borderWidth="1" />
     </shapes>
     <txttips>
         <txttip left="483" top="1051" right="593" bottom="1068" content="192.168.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
@@ -165,8 +169,8 @@
         <txttip left="802" top="479" right="919" bottom="496" content="192.168.30.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="802" top="403" right="919" bottom="420" content="192.168.40.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="802" top="365" right="919" bottom="382" content="192.168.40.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="808" top="291" right="895" bottom="308" content="10.0.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="808" top="237" right="895" bottom="254" content="10.0.0.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="808" top="291" right="895" bottom="323" content="nat£º&#x0D;&#x0A;10.0.0.1/30" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="808" top="237" right="895" bottom="254" content="10.0.0.2/30" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="941" top="160" right="1066" bottom="177" content="192.168.100.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1243" top="194" right="1368" bottom="211" content="192.168.100.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="501" top="699" right="596" bottom="716" content="ospf 3.3.3.3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
@@ -175,6 +179,8 @@
         <txttip left="995" top="442" right="1090" bottom="459" content="ospf 6.6.6.6" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1010" top="327" right="1105" bottom="344" content="ospf 1.1.1.1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="806" top="180" right="901" bottom="197" content="ospf 2.2.2.2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="993" top="419" right="1133" bottom="436" content="nat 192.168.40.100" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="640" top="364" right="682" bottom="381" content="local" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="637" top="160" right="694" bottom="177" content="untrast" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="362" top="516" right="404" bottom="533" content="trust" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>
