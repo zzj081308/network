@@ -16,27 +16,27 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="5C18D940-B8F3-4af1-B5E1-E6810644687E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-20-2C-F2 -ipaddr 192.168.50.10 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-61-22-A7" com_port="0" bootmode="0" cx="361.445007" cy="335.221008" edit_left="388" edit_top="389">
+        <dev id="5C18D940-B8F3-4af1-B5E1-E6810644687E" name="FTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-20-2C-F2 -ipaddr 192.168.50.10 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-9A-53-32" com_port="0" bootmode="0" cx="361.445007" cy="335.221008" edit_left="388" edit_top="389">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="B9B72868-37F1-4d86-A6EE-B25D320A4993" name="HTTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-46-41-BB -ipaddr 192.168.50.20 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-91-22-22" com_port="0" bootmode="0" cx="363.466003" cy="419.708008" edit_left="390" edit_top="473">
+        <dev id="B9B72868-37F1-4d86-A6EE-B25D320A4993" name="HTTP" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-46-41-BB -ipaddr 192.168.50.20 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-31-1E-ED" com_port="0" bootmode="0" cx="363.466003" cy="419.708008" edit_left="390" edit_top="473">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="649DF07A-6F60-45f2-9DEB-A09292C84233" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-5B-07-C6 -ipaddr 192.168.50.30 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist _www.zzj.com_192.168.50.20" system_mac="54-89-98-8F-38-1D" com_port="0" bootmode="0" cx="362.445007" cy="508.174011" edit_left="389" edit_top="562">
+        <dev id="649DF07A-6F60-45f2-9DEB-A09292C84233" name="DNS" poe="0" model="Server" settings="-domain 0 -eth 54-89-98-5B-07-C6 -ipaddr 192.168.50.30 -ipmask 255.255.255.0 -gateway 192.168.50.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 0.0.0.0 -ipv6dns 3000::1 -dnslist _www.zzj.com_192.168.50.20" system_mac="54-89-98-CA-54-AD" com_port="0" bootmode="0" cx="362.445007" cy="508.174011" edit_left="389" edit_top="562">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="A68E96A1-AC1A-4893-8DD9-6FD335840A0F" name="Client3" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-FE-0F-60 -ipaddr 192.168.101.2 -ipmask 255.255.255.0 -gateway 192.168.101.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 10.0.0.1 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-5A-23-5A" com_port="0" bootmode="0" cx="1537.063110" cy="250.559021" edit_left="1564" edit_top="304">
+        <dev id="A68E96A1-AC1A-4893-8DD9-6FD335840A0F" name="Client3" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-FE-0F-60 -ipaddr 192.168.101.2 -ipmask 255.255.255.0 -gateway 192.168.101.1 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 10.0.0.1 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-FC-09-2A" com_port="0" bootmode="0" cx="1537.063110" cy="250.559021" edit_left="1564" edit_top="304">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="DE473922-7BA8-44a1-99AC-888B1F9A3F7A" name="Client2" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-B8-1C-2E -ipaddr 192.168.2.2 -ipmask 255.255.255.0 -gateway 192.168.2.254 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 192.168.50.30 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-BF-43-58" com_port="0" bootmode="0" cx="1781.711060" cy="839.441040" edit_left="1808" edit_top="893">
+        <dev id="DE473922-7BA8-44a1-99AC-888B1F9A3F7A" name="Client2" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-B8-1C-2E -ipaddr 192.168.2.2 -ipmask 255.255.255.0 -gateway 192.168.2.254 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 192.168.50.30 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-F8-6A-22" com_port="0" bootmode="0" cx="1781.711060" cy="839.441040" edit_left="1808" edit_top="893">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -83,9 +83,6 @@
                 <interface sztype="Ethernet" interfacename="GE" count="5" />
             </slot>
         </dev>
-        <dev id="0C453772-093A-46f9-99D9-C454C2D57BAE" name="Cellphone1" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-08-15-BD  -simsta_check 0 " system_mac="54-89-98-08-15-BD" com_port="0" bootmode="0" cx="917.500000" cy="1199.700073" edit_left="944" edit_top="1253">
-            <slot number="slot17" isMainBoard="1" />
-        </dev>
         <dev id="DD377B0C-78DD-4837-9C47-4501543F78B1" name="STA1" poe="0" model="STA" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-14-71-76  -simsta_check 0 " system_mac="54-89-98-14-71-76" com_port="0" bootmode="0" cx="1067.600098" cy="1208.700073" edit_left="1094" edit_top="1262">
             <slot number="slot17" isMainBoard="1" />
         </dev>
@@ -122,7 +119,7 @@
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
         </dev>
-        <dev id="72E462B7-C7BA-4747-A723-AB742383E89F" name="Client1" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-9C-1D-CC -ipaddr 192.168.1.2 -ipmask 255.255.255.0 -gateway 192.168.1.254 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 192.168.50.30 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-31-60-90" com_port="0" bootmode="0" cx="731.350037" cy="840.370117" edit_left="758" edit_top="894">
+        <dev id="72E462B7-C7BA-4747-A723-AB742383E89F" name="Client1" poe="0" model="Client" settings="-domain 0 -eth 54-89-98-9C-1D-CC -ipaddr 192.168.1.2 -ipmask 255.255.255.0 -gateway 192.168.1.254 -ipv6addr 2000::2 -ipv6gateway 2000::1 -prefixlen 64 -ipv4dns 192.168.50.30 -ipv6dns 3000::1 -dnslist NULL" system_mac="54-89-98-AB-79-34" com_port="0" bootmode="0" cx="731.350037" cy="840.370117" edit_left="758" edit_top="894">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="Ethernet" count="1" />
             </slot>
@@ -138,6 +135,18 @@
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
+        <dev id="0C453772-093A-46f9-99D9-C454C2D57BAE" name="Cellphone1" poe="0" model="Cellphone" settings=" -simsta_ip 0.0.0.0  -simsta_mask 0.0.0.0  -simsta_gateway 0.0.0.0  -simsta_mac 54-89-98-08-15-BD  -simsta_check 0 " system_mac="54-89-98-08-15-BD" com_port="0" bootmode="0" cx="917.500000" cy="1199.700073" edit_left="944" edit_top="1253">
+            <slot number="slot17" isMainBoard="1" />
+        </dev>
+        <dev id="D58C6FD6-3FAC-440c-AD60-5F882BF91044" name="Cloud1" poe="0" model="Cloud" settings="" system_mac="" com_port="0" bootmode="0" cx="918.728027" cy="526.062012" edit_left="961" edit_top="610">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
+                <interface sztype="Ethernet" interfacename="GE" count="0" />
+                <interface sztype="Serial" interfacename="Serial" count="0" />
+                <interfaceMap sztype="Ethernet" interfacename="Ethernet" displayNo="1" remoteDisplayNo="2" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+                <interfaceMap sztype="Ethernet" interfacename="Ethernet" displayNo="2" remoteDisplayNo="1" adapterUid="\Device\NPF_{E538CA3E-8CC0-4617-8516-E2B3F54D8895}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
+            </slot>
+        </dev>
         <dev id="9445A024-B371-4955-ABAA-8F61BC9FB364" name="SW5" poe="0" model="CE12800" settings="" system_mac="70-7B-E8-5A-29-CF" com_port="2006" bootmode="0" cx="1273.135010" cy="545.125000" edit_left="1295" edit_top="591">
             <slot id="1">
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="0" />
@@ -150,15 +159,6 @@
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="7" />
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="8" />
                 <interface category="Ethernet" type="GE" slotIndex="1" cardIndex="0" interfaceIndex="9" />
-            </slot>
-        </dev>
-        <dev id="D58C6FD6-3FAC-440c-AD60-5F882BF91044" name="Cloud1" poe="0" model="Cloud" settings="" system_mac="" com_port="0" bootmode="0" cx="918.728027" cy="526.062012" edit_left="961" edit_top="610">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="Ethernet" count="2" />
-                <interface sztype="Ethernet" interfacename="GE" count="0" />
-                <interface sztype="Serial" interfacename="Serial" count="0" />
-                <interfaceMap sztype="Ethernet" interfacename="Ethernet" displayNo="1" remoteDisplayNo="2" adapterUid="" isOpen="0" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
-                <interfaceMap sztype="Ethernet" interfacename="Ethernet" displayNo="2" remoteDisplayNo="1" adapterUid="\Device\NPF_{E538CA3E-8CC0-4617-8516-E2B3F54D8895}" isOpen="1" udpPort="0" peerIPAdd="0.0.0.0" peerIP="0" peerPort="0" />
             </slot>
         </dev>
     </devices>
@@ -243,7 +243,7 @@
             <interfacePair lineName="Copper" srcIndex="7" srcBoundRectIsMoved="1" srcBoundRect_X="1590.417847" srcBoundRect_Y="908.181763" srcOffset_X="-35.000000" srcOffset_Y="36.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="1592.582153" tarBoundRect_Y="1131.818237" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
         </line>
         <line srcDeviceID="D58C6FD6-3FAC-440c-AD60-5F882BF91044" destDeviceID="9445A024-B371-4955-ABAA-8F61BC9FB364">
-            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="1025.396973" srcBoundRect_Y="568.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="4" tarBoundRectIsMoved="0" tarBoundRect_X="1258.172363" tarBoundRect_Y="568.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="1025.396973" srcBoundRect_Y="568.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="4" tarBoundRectIsMoved="1" tarBoundRect_X="1258.172363" tarBoundRect_Y="568.000000" tarOffset_X="-40.000000" tarOffset_Y="-18.000000" />
         </line>
     </lines>
     <shapes>
@@ -299,5 +299,7 @@
         <txttip left="1761" top="514" right="1818" bottom="531" content="vlan 60" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1764" top="587" right="1881" bottom="604" content="192.168.60.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1364" top="537" right="1481" bottom="554" content="192.168.60.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1107" top="545" right="1217" bottom="562" content="192.168.200.10" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="989" top="591" right="1114" bottom="608" content="192.168.200.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>
